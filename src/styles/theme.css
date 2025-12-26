@@ -133,3 +133,12 @@ h1,h2,h3,h4{ letter-spacing: -0.02em; }
 
   isolation: isolate;
 }
+
+.card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (min-width: 1200px){
+  .grid3{ grid-template-columns: repeat(3, 1fr); }
+}
